@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/ID_toolbar"
+            layout="@layout/appbar" />
+
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ID_cardView1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height1"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/ID_imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/cat" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ID_cardView1">
+
+                <ImageView
+                    android:id="@+id/ID_uno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bone" />
+
+                <TextView
+                    android:id="@+id/ID_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_text"
+                    android:layout_marginLeft="@dimen/margin_text"
+                    android:text="@string/cat"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/ID_bone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bone_yellow" />
+
+                <TextView
+                    android:id="@+id/ID_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:text="@string/star_3"
+                    android:textSize="@dimen/text_size" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ID_cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height1"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/ID_imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dog" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ID_cardView2">
+
+                <ImageView
+                    android:id="@+id/ID_dos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bone" />
+
+                <TextView
+                    android:id="@+id/ID_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_text"
+                    android:text="@string/dog"
+                    android:textSize="@dimen/margin" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bone_yellow" />
+
+                <TextView
+                    android:id="@+id/ID_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:text="@string/star_2"
+                    android:textSize="@dimen/text_size" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ID_cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height1"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/ID_imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pig" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ID_cardView3">
+
+                <ImageView
+                    android:id="@+id/ID_tres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bone" />
+
+                <TextView
+                    android:id="@+id/ID_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_text"
+                    android:text="@string/pig"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bone_yellow" />
+
+                <TextView
+                    android:id="@+id/ID_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:text="@string/star_4"
+                    android:textSize="@dimen/text_size" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/forth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ID_cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height1"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/ID_imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cow" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ID_cardView4">
+
+                <ImageView
+                    android:id="@+id/ID_cuatro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bone" />
+
+                <TextView
+                    android:id="@+id/ID_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_text"
+                    android:text="@string/cow"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bone_yellow" />
+
+                <TextView
+                    android:id="@+id/ID_text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:text="@string/star_3"
+                    android:textSize="@dimen/text_size" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ID_cardView5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height1"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginRight="@dimen/margin">
+
+                <ImageView
+                    android:id="@+id/ID_imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/rabbit" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ID_cardView5">
+
+                <ImageView
+                    android:id="@+id/ID_cinco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bone" />
+
+                <TextView
+                    android:id="@+id/ID_text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_text"
+                    android:text="@string/rabbit"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bone_yellow" />
+
+                <TextView
+                    android:id="@+id/ID_text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:text="@string/star_5"
+                    android:textSize="@dimen/text_size" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
